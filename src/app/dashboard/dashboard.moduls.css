@@ -1,0 +1,51 @@
+.menu_dock
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 60px;
+    padding: 10px 2px;
+}
+.menu_dock .menu_dock_item
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+.menu_dock_container
+{
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.Tooltip
+{
+    border: 3px solid red;
+}
+.TooltipTrigger
+{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 5px !important;
+    padding: 0;
+}
+.text_box
+{
+    position: relative;
+    height: 90%;
+    width: 100%;
+    border: 3px solid rgb(0, 255, 0);
+}
